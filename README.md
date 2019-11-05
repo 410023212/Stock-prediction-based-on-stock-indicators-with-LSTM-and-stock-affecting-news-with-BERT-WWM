@@ -11,13 +11,14 @@ There are two models in this repository. Code and result are shown as ipython no
 # Model I
 A hybrid model that combine LSTM and MLP to predict stock.  
 data_index_2.ipynb  
-Contains definitions and related methods of the Getdata class for reading and preprocessing data. We provide a copy of processed test data and dev data for the model.  
+Contains definitions and related methods of the Getdata class for reading and preprocessing data. We provide a copy of processed test data and dev data for the model (train_getdata.pkl,dev_getdata.pkl,test_getdata.pkl).  
 model_index_2.ipynb  
 Include the defination of our model and related functions. A sample of trained model is saved in .bin.  
 evaluate_index.ipynb  
 Contains predefined function for test and show result.  
 main_index_v1.ipynb  
-Main file of Model I，which control the entire process of the project, from data generation to training to evaluation. Set parameter "is_train" to False to skip the training section.
+Main file of Model I，which control the entire process of the project, from data generation to training to evaluation.
+If '*_getdata.pkl' are given, set "new_data" parameter to False to skip regenerate dataset.
 
 # Model II  
 This is the text classifier for stock related news.
@@ -25,3 +26,4 @@ bertWWM_classifier.ipynb
 Include whole process(data collection,traning,evaluation) of this model. Our program is based on PyTorch platform. For the use of the Bert-WWM pre-training model, and the conversion between TensorFlow and PyTorch, please refer to the following two github.  
 https://github.com/ymcui/Chinese-BERT-wwm  
 https://github.com/huggingface/transformers
+construct dataset part can be skip when .csv is given.
