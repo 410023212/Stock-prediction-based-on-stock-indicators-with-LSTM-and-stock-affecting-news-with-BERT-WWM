@@ -1,5 +1,5 @@
 # Stock prediction based on stock indicators with LSTM and stock-affecting news with BERT WWM
-This is the repository of COMP90019 Distributed Computing Project.  
+This is the repository of Distributed Computing Research Project.  
 Language: python
 Key library:
 hanlp
