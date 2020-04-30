@@ -1,17 +1,14 @@
 # Stock prediction based on stock indicators with LSTM and stock-affecting news with BERT WWM
-This is the repository of Distributed Computing Research Project.  
+This is the repository of Distributed Computing Research Project supervised by Professor Richard Sinnott.  
 Language: python
 Key library:
 hanlp
 pytorch
 pytorch_transformers
 
-
-
 ## Team Members
-Tong He		  867488  
-Yao Wang		869992  
-Supervisor: Richard Sinnott
+Tong He		  
+Yao Wang		
 
 ## introduction
 There are two models in this repository. Code and result are shown as ipython notebook.
